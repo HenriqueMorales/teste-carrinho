@@ -21,6 +21,10 @@ export default createGlobalStyle`
         font-size: 62.5%;
     }
     body {
+        align-items: center;
         background: var(--color-gray);
+        display: flex;
+        justify-content: center;
+        height: 100vh;
     }
 `;
