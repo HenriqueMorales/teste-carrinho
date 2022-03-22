@@ -6,27 +6,48 @@ const StyledMain = styled.main`
   padding-bottom: 12px;
   width: 80vw;
 
+  @media (min-width: 700px) {
+    padding-bottom: 24px;
+    width: 600px;
+  }
+
   h2 {
     border-bottom: 2px solid var(--color-gray);
     font-size: 2rem;
     padding: 8px;
     text-align: center;
+
+    @media (min-width: 700px) {
+      font-size: 2.8rem;
+    }
   }
 
   ul {
     border-bottom: 2px solid var(--color-gray);
     padding: 12px;
+
+    @media (min-width: 700px) {
+      padding: 24px;
+    }
   }
 
   section {
     border-bottom: 2px solid var(--color-gray);
     padding: 12px;
 
+    @media (min-width: 700px) {
+      padding: 24px;
+    }
+
     div {
       display: flex;
       font-size: 1.6rem;
       font-weight: bold;
       justify-content: space-between;
+
+      @media (min-width: 700px) {
+        font-size: 2.2rem;
+      }
     }
 
     .frete {
@@ -38,6 +59,11 @@ const StyledMain = styled.main`
       padding: 8px;
       text-align: center;
       width: max-content;
+
+      @media (min-width: 700px) {
+        font-size: 2rem;
+        width: 80%;
+      }
     }
   }
 
@@ -53,6 +79,11 @@ const StyledMain = styled.main`
     margin-top: 12px;
     padding: 12px;
     width: 90%;
+
+    @media (min-width: 700px) {
+      font-size: 2.4rem;
+      margin-top: 24px;
+    }
   }
 `;
 

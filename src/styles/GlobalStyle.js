@@ -25,6 +25,6 @@ export default createGlobalStyle`
         background: var(--color-gray);
         display: flex;
         justify-content: center;
-        height: 100vh;
+        padding: 40px;
     }
 `;
