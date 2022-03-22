@@ -24,3 +24,8 @@ npm run dev
 ```
 
 Após isso, é só abrir o navegador e acessar "localhost:3000".
+
+### Contato
+
+* <henrique_mcarmo@outlook.com>
+* <https://www.linkedin.com/in/henriquemorales10/>
